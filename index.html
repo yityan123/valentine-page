@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi pareja?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcccc;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff0066;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #ff0066;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #cc0052;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿Quieres ser mi pareja?</h1>
+    <button class="button" onclick="yes()">Sí</button>
+    <button class="button" onclick="no()">No</button>
+
+    <script>
+        function yes() {
+            alert("¡Qué maravilla! ¡Seremos muy felices!");
+        }
+
+        function no() {
+            alert("Qué pena, ¡espero que podamos seguir siendo buenos amigos!");
+        }
+    </script>
+</body>
+</html>
